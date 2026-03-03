@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/CostLens/',  // <-- Add this line
+  base: './',  // <-- Add this line
   server: {
     port: 5173,
     host: "localhost"
